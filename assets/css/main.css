@@ -10,6 +10,12 @@
 	color: #ab0439;
 	font-weight: bold;
 }
+.w-75{
+	width: 75% !important;
+}
+.m-auto {
+    margin: auto !important;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2811,7 +2817,7 @@ input, select, textarea {
 						color: #ffffff !important;
 						display: block;
 						/* padding: 0.85em 0; */
-						padding: 8px 0;
+						padding: 6px 0;
 						text-decoration: none;
 					}
 
@@ -2897,7 +2903,7 @@ input, select, textarea {
 			}
 
 				#header > header {
-					padding: 2em;
+					padding: 1em 2em;
 				}
 
 				#header > footer {
