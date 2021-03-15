@@ -2203,9 +2203,13 @@ input, select, textarea {
 		}
 
 			.image.avatar img {
-				border-radius: 100%;
+				/* border-radius: 100%;
 				display: block;
-				width: 100%;
+				width: 100%; */
+				display: block;
+				transform: rotate(60deg);
+				width: 150%;
+				transform: scaleX(-1) rotate(49deg);
 			}
 
 		.image.main {
@@ -2752,9 +2756,15 @@ input, select, textarea {
 		}
 
 			#header > header .avatar {
+				/* display: block;
+				margin: 0 auto 2.25em auto;
+				width: 8em; */
 				display: block;
 				margin: 0 auto 2.25em auto;
-				width: 8em;
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+				overflow: hidden;
 			}
 
 			#header > header h1 {
